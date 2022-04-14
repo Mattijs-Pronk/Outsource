@@ -472,25 +472,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1999j\\.nuget\\packages\\": {},
-    "D:\\VStudi\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\matti\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1999j\\Documents\\School\\Outsource\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+      "projectUniqueName": "C:\\Users\\matti\\Desktop\\Outsource VECOZO\\Outsource\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
       "projectName": "BusinessLogicLayer",
-      "projectPath": "C:\\Users\\1999j\\Documents\\School\\Outsource\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
-      "packagesPath": "C:\\Users\\1999j\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1999j\\Documents\\School\\Outsource\\BusinessLogicLayer\\obj\\",
+      "projectPath": "C:\\Users\\matti\\Desktop\\Outsource VECOZO\\Outsource\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+      "packagesPath": "C:\\Users\\matti\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\matti\\Desktop\\Outsource VECOZO\\Outsource\\BusinessLogicLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\VStudi\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\1999j\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\matti\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -505,8 +503,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\1999j\\Documents\\School\\Outsource\\DataAccesLayer\\DataAccesLayer.csproj": {
-              "projectPath": "C:\\Users\\1999j\\Documents\\School\\Outsource\\DataAccesLayer\\DataAccesLayer.csproj"
+            "C:\\Users\\matti\\Desktop\\Outsource VECOZO\\Outsource\\DataAccesLayer\\DataAccesLayer.csproj": {
+              "projectPath": "C:\\Users\\matti\\Desktop\\Outsource VECOZO\\Outsource\\DataAccesLayer\\DataAccesLayer.csproj"
             }
           }
         }
@@ -535,7 +533,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

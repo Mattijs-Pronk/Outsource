@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1999j\\Documents\\School\\Outsource\\DataAccesLayer\\DataAccesLayer.csproj": {}
+    "C:\\Users\\matti\\Desktop\\Outsource VECOZO\\Outsource\\DataAccesLayer\\DataAccesLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1999j\\Documents\\School\\Outsource\\DataAccesLayer\\DataAccesLayer.csproj": {
+    "C:\\Users\\matti\\Desktop\\Outsource VECOZO\\Outsource\\DataAccesLayer\\DataAccesLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1999j\\Documents\\School\\Outsource\\DataAccesLayer\\DataAccesLayer.csproj",
+        "projectUniqueName": "C:\\Users\\matti\\Desktop\\Outsource VECOZO\\Outsource\\DataAccesLayer\\DataAccesLayer.csproj",
         "projectName": "DataAccesLayer",
-        "projectPath": "C:\\Users\\1999j\\Documents\\School\\Outsource\\DataAccesLayer\\DataAccesLayer.csproj",
-        "packagesPath": "C:\\Users\\1999j\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1999j\\Documents\\School\\Outsource\\DataAccesLayer\\obj\\",
+        "projectPath": "C:\\Users\\matti\\Desktop\\Outsource VECOZO\\Outsource\\DataAccesLayer\\DataAccesLayer.csproj",
+        "packagesPath": "C:\\Users\\matti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matti\\Desktop\\Outsource VECOZO\\Outsource\\DataAccesLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\VStudi\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\1999j\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\matti\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

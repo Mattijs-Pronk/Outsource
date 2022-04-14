@@ -8,5 +8,8 @@ namespace DataAccesLayer
 {
     public class VaardigheidDTO
     {
+        public int Id;
+
+        public string Vaardigheden;
     }
 }

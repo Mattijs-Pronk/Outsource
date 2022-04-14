@@ -16,7 +16,7 @@ namespace BusinessLogicLayer
         public Vaardigheid(VaardigheidDTO vaardigheid)
         {
             this.Id = vaardigheid.Id;
-            this.Vaardigheden = vaardigheid.Vaardigheid;
+            this.Vaardigheden = vaardigheid.Vaardigheden;
         }
     }
 }
