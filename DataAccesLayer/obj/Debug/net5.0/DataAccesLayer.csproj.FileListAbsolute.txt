@@ -1,0 +1,12 @@
+C:\Users\matti\Desktop\Outsource VECOZO\DataAccesLayer\obj\Debug\net5.0\DataAccesLayer.csproj.AssemblyReference.cache
+C:\Users\matti\Desktop\Outsource VECOZO\DataAccesLayer\obj\Debug\net5.0\DataAccesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\Desktop\Outsource VECOZO\DataAccesLayer\obj\Debug\net5.0\DataAccesLayer.AssemblyInfoInputs.cache
+C:\Users\matti\Desktop\Outsource VECOZO\DataAccesLayer\obj\Debug\net5.0\DataAccesLayer.AssemblyInfo.cs
+C:\Users\matti\Desktop\Outsource VECOZO\DataAccesLayer\obj\Debug\net5.0\DataAccesLayer.csproj.CoreCompileInputs.cache
+C:\Users\matti\Desktop\Outsource VECOZO\DataAccesLayer\bin\Debug\net5.0\DataAccesLayer.deps.json
+C:\Users\matti\Desktop\Outsource VECOZO\DataAccesLayer\bin\Debug\net5.0\DataAccesLayer.dll
+C:\Users\matti\Desktop\Outsource VECOZO\DataAccesLayer\bin\Debug\net5.0\ref\DataAccesLayer.dll
+C:\Users\matti\Desktop\Outsource VECOZO\DataAccesLayer\bin\Debug\net5.0\DataAccesLayer.pdb
+C:\Users\matti\Desktop\Outsource VECOZO\DataAccesLayer\obj\Debug\net5.0\DataAccesLayer.dll
+C:\Users\matti\Desktop\Outsource VECOZO\DataAccesLayer\obj\Debug\net5.0\ref\DataAccesLayer.dll
+C:\Users\matti\Desktop\Outsource VECOZO\DataAccesLayer\obj\Debug\net5.0\DataAccesLayer.pdb

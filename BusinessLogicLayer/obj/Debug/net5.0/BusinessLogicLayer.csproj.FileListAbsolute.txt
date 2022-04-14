@@ -1,0 +1,15 @@
+C:\Users\matti\Desktop\Outsource VECOZO\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\matti\Desktop\Outsource VECOZO\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\Desktop\Outsource VECOZO\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\matti\Desktop\Outsource VECOZO\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.AssemblyInfo.cs
+C:\Users\matti\Desktop\Outsource VECOZO\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\matti\Desktop\Outsource VECOZO\BusinessLogicLayer\bin\Debug\net5.0\BusinessLogicLayer.deps.json
+C:\Users\matti\Desktop\Outsource VECOZO\BusinessLogicLayer\bin\Debug\net5.0\BusinessLogicLayer.dll
+C:\Users\matti\Desktop\Outsource VECOZO\BusinessLogicLayer\bin\Debug\net5.0\ref\BusinessLogicLayer.dll
+C:\Users\matti\Desktop\Outsource VECOZO\BusinessLogicLayer\bin\Debug\net5.0\BusinessLogicLayer.pdb
+C:\Users\matti\Desktop\Outsource VECOZO\BusinessLogicLayer\bin\Debug\net5.0\DataAccesLayer.dll
+C:\Users\matti\Desktop\Outsource VECOZO\BusinessLogicLayer\bin\Debug\net5.0\DataAccesLayer.pdb
+C:\Users\matti\Desktop\Outsource VECOZO\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.csproj.CopyComplete
+C:\Users\matti\Desktop\Outsource VECOZO\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.dll
+C:\Users\matti\Desktop\Outsource VECOZO\BusinessLogicLayer\obj\Debug\net5.0\ref\BusinessLogicLayer.dll
+C:\Users\matti\Desktop\Outsource VECOZO\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.pdb
