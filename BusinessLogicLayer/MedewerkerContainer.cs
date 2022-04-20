@@ -30,7 +30,7 @@ namespace BusinessLogicLayer
             return Medewerkers;
         }
 
-        private List<Medewerker> FilterMedewerkersFunc(List<Medewerker> medewerkersList, int filterType, string filterString)
+        public List<Medewerker> FilterMedewerkersFunc(List<Medewerker> medewerkersList, int filterType, string filterString)
         {
             var filteredMedewerkers = new List<Medewerker>();
             if (filterType < 0 || filterType > 3) return filteredMedewerkers;

@@ -94,3 +94,11 @@ body {
 .filter-wrap {
     margin-top: 70px;
 }
+
+.medewerkers-container .medewerker {
+
+}
+
+.medewerkers-container .medewerker:hover {
+    background: rgba(0,0,0,0.1);
+}

@@ -30,9 +30,15 @@ namespace BusinessLogicLayer
         public List<int> Persoonlijkheden;
         public List<int> Vaardigheden;
 
-        public Medewerker()
+        public Medewerker(int id, string voornaam, string achternaam, int functieId, bool isManager, List<int> pers, List<int> vaar) 
         {
-
+            Id = id;
+            Voornaam = voornaam;
+            Achternaam = achternaam;
+            FunctieId = functieId;
+            IsManager = isManager;
+            Persoonlijkheden = pers;
+            Vaardigheden = vaar;
         }
 
         public Medewerker(MedewerkerDTO medewerker)

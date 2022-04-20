@@ -1,10 +1,13 @@
 ﻿@{
     ViewData["Title"] = "Home";
 }
+<script language="C#" runat="server">
+    
+</script>
 <div class="container-fluid mt-3">
     <div class="container main-wrap border border-secondary">
         <div class="banner w-100 bg-info"></div>
-        <div class="page-wrap vh-100">
+        <div class="page-wrap">
             <div class="row">
                 <div class="col-md-4">
                     <div class="inner account-wrap bg-white border border-secondary">
@@ -41,170 +44,185 @@
                                     <form action="#" method="post" class="form">
                                         <div class="form-group">
                                             <input class="form-control" type="text" name="name" value="" placeholder="Zoeken" />
+                                            <button class="btn btn-dark">Filter this</button>
                                         </div>
                                     </form>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="filter-wrap">
+                    <div class="filter-wrap medewerkers-container">
                         <div class="row d-flex justify-content-center">
-                            <div class="col-md-10">
-                                <div class="filter-box border border-secondary">
+                            <div class="col-md-10 border border-secondary">
+                                <div class="filter-box">
                                     <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
-                                                <div class="img-box">
-                                                    <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                        <div class="col-md-6 medewerker">
+                                            <a href="#" class="link-primary">
+                                                <div class="profile-wraper d-flex flex-row justify-content-around align-content-center mt-1 mb-1">
+                                                    <div class="img-box">
+                                                        <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                                    </div>
+                                                    <div class="info-box my-auto">
+                                                        <p>Paul</p>
+                                                    </div>
                                                 </div>
-                                                <div class="info-box">
-                                                    <p>Paul</p>
-                                                    <a href="#" class="link-primary">Info</a>
-                                                </div>
-                                            </div>
+                                            </a>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
-                                                <div class="img-box">
-                                                    <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                        <div class="col-md-6 medewerker">
+                                            <a href="#" class="link-primary">
+                                                <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
+                                                    <div class="img-box">
+                                                        <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                                    </div>
+                                                    <div class="info-box my-auto">
+                                                        <p>Paul</p>
+                                                    </div>
                                                 </div>
-                                                <div class="info-box">
-                                                    <p>Paul</p>
-                                                    <a href="#" class="link-primary">Info</a>
-                                                </div>
-                                            </div>
+                                            </a>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
-                                                <div class="img-box">
-                                                    <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                        <div class="col-md-6 medewerker">
+                                            <a href="#" class="link-primary">
+                                                <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
+                                                    <div class="img-box">
+                                                        <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                                    </div>
+                                                    <div class="info-box my-auto">
+                                                        <p>Paul</p>
+                                                    </div>
                                                 </div>
-                                                <div class="info-box">
-                                                    <p>Paul</p>
-                                                    <a href="#" class="link-primary">Info</a>
-                                                </div>
-                                            </div>
+                                            </a>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
-                                                <div class="img-box">
-                                                    <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                        <div class="col-md-6 medewerker">
+                                            <a href="#" class="link-primary">
+                                                <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
+                                                    <div class="img-box">
+                                                        <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                                    </div>
+                                                    <div class="info-box my-auto">
+                                                        <p>Paul</p>
+                                                    </div>
                                                 </div>
-                                                <div class="info-box">
-                                                    <p>Paul</p>
-                                                    <a href="#" class="link-primary">Info</a>
-                                                </div>
-                                            </div>
+                                            </a>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
-                                                <div class="img-box">
-                                                    <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                        <div class="col-md-6 medewerker">
+                                            <a href="#" class="link-primary">
+                                                <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
+                                                    <div class="img-box">
+                                                        <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                                    </div>
+                                                    <div class="info-box my-auto">
+                                                        <p>Paul</p>
+                                                    </div>
                                                 </div>
-                                                <div class="info-box">
-                                                    <p>Paul</p>
-                                                    <a href="#" class="link-primary">Info</a>
-                                                </div>
-                                            </div>
+                                            </a>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
-                                                <div class="img-box">
-                                                    <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                        <div class="col-md-6 medewerker">
+                                            <a href="#" class="link-primary">
+                                                <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
+                                                    <div class="img-box">
+                                                        <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                                    </div>
+                                                    <div class="info-box my-auto">
+                                                        <p>Paul</p>
+                                                    </div>
                                                 </div>
-                                                <div class="info-box">
-                                                    <p>Paul</p>
-                                                    <a href="#" class="link-primary">Info</a>
-                                                </div>
-                                            </div>
+                                            </a>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
-                                                <div class="img-box">
-                                                    <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                        <div class="col-md-6 medewerker">
+                                            <a href="#" class="link-primary">
+                                                <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
+                                                    <div class="img-box">
+                                                        <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                                    </div>
+                                                    <div class="info-box my-auto">
+                                                        <p>Paul</p>
+                                                    </div>
                                                 </div>
-                                                <div class="info-box">
-                                                    <p>Paul</p>
-                                                    <a href="#" class="link-primary">Info</a>
-                                                </div>
-                                            </div>
+                                            </a>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
-                                                <div class="img-box">
-                                                    <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                        <div class="col-md-6 medewerker">
+                                            <a href="#" class="link-primary">
+                                                <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
+                                                    <div class="img-box">
+                                                        <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                                    </div>
+                                                    <div class="info-box my-auto">
+                                                        <p>Paul</p>
+                                                    </div>
                                                 </div>
-                                                <div class="info-box">
-                                                    <p>Paul</p>
-                                                    <a href="#" class="link-primary">Info</a>
-                                                </div>
-                                            </div>
+                                            </a>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
-                                                <div class="img-box">
-                                                    <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                        <div class="col-md-6 medewerker">
+                                            <a href="#" class="link-primary">
+                                                <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
+                                                    <div class="img-box">
+                                                        <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                                    </div>
+                                                    <div class="info-box my-auto">
+                                                        <p>Paul</p>
+                                                    </div>
                                                 </div>
-                                                <div class="info-box">
-                                                    <p>Paul</p>
-                                                    <a href="#" class="link-primary">Info</a>
-                                                </div>
-                                            </div>
+                                            </a>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
-                                                <div class="img-box">
-                                                    <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                        <div class="col-md-6 medewerker">
+                                            <a href="#" class="link-primary">
+                                                <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
+                                                    <div class="img-box">
+                                                        <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                                    </div>
+                                                    <div class="info-box my-auto">
+                                                        <p>Paul</p>
+                                                    </div>
                                                 </div>
-                                                <div class="info-box">
-                                                    <p>Paul</p>
-                                                    <a href="#" class="link-primary">Info</a>
-                                                </div>
-                                            </div>
+                                            </a>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
-                                                <div class="img-box">
-                                                    <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                        <div class="col-md-6 medewerker">
+                                            <a href="#" class="link-primary">
+                                                <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
+                                                    <div class="img-box">
+                                                        <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                                    </div>
+                                                    <div class="info-box my-auto">
+                                                        <p>Paul</p>
+                                                    </div>
                                                 </div>
-                                                <div class="info-box">
-                                                    <p>Paul</p>
-                                                    <a href="#" class="link-primary">Info</a>
-                                                </div>
-                                            </div>
+                                            </a>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
-                                                <div class="img-box">
-                                                    <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                        <div class="col-md-6 medewerker">
+                                            <a href="#" class="link-primary">
+                                                <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
+                                                    <div class="img-box">
+                                                        <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                                    </div>
+                                                    <div class="info-box my-auto">
+                                                        <p>Paul</p>
+                                                    </div>
                                                 </div>
-                                                <div class="info-box">
-                                                    <p>Paul</p>
-                                                    <a href="#" class="link-primary">Info</a>
-                                                </div>
-                                            </div>
+                                            </a>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
-                                                <div class="img-box">
-                                                    <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                        <div class="col-md-6 medewerker">
+                                            <a href="#" class="link-primary">
+                                                <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
+                                                    <div class="img-box">
+                                                        <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                                    </div>
+                                                    <div class="info-box my-auto">
+                                                        <p>Paul</p>
+                                                    </div>
                                                 </div>
-                                                <div class="info-box">
-                                                    <p>Paul</p>
-                                                    <a href="#" class="link-primary">Info</a>
-                                                </div>
-                                            </div>
+                                            </a>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
-                                                <div class="img-box">
-                                                    <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                        <div class="col-md-6 medewerker">
+                                            <a href="#" class="link-primary">
+                                                <div class="profile-wraper d-flex flex-row justify-content-around mt-1 mb-1">
+                                                    <div class="img-box">
+                                                        <img src="http://via.placeholder.com/100x100" alt="profile picture" class="w-auto d-block m-auto" />
+                                                    </div>
+                                                    <div class="info-box my-auto">
+                                                        <p>Paul</p>
+                                                    </div>
                                                 </div>
-                                                <div class="info-box">
-                                                    <p>Paul</p>
-                                                    <a href="#" class="link-primary">Info</a>
-                                                </div>
-                                            </div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

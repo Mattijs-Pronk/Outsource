@@ -36,3 +36,10 @@ C:\Users\stijn\source\repos\ProftaakOutSource\BusinessLogicLayer\obj\Debug\net5.
 C:\Users\stijn\source\repos\ProftaakOutSource\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.dll
 C:\Users\stijn\source\repos\ProftaakOutSource\BusinessLogicLayer\obj\Debug\net5.0\ref\BusinessLogicLayer.dll
 C:\Users\stijn\source\repos\ProftaakOutSource\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.pdb
+C:\Users\stijn\source\repos\ProftaakOutSource\BusinessLogicLayer\bin\Debug\net5.0\BusinessLogicLayer.deps.json
+C:\Users\stijn\source\repos\ProftaakOutSource\BusinessLogicLayer\bin\Debug\net5.0\BusinessLogicLayer.dll
+C:\Users\stijn\source\repos\ProftaakOutSource\BusinessLogicLayer\bin\Debug\net5.0\ref\BusinessLogicLayer.dll
+C:\Users\stijn\source\repos\ProftaakOutSource\BusinessLogicLayer\bin\Debug\net5.0\BusinessLogicLayer.pdb
+C:\Users\stijn\source\repos\ProftaakOutSource\BusinessLogicLayer\bin\Debug\net5.0\DataAccesLayer.dll
+C:\Users\stijn\source\repos\ProftaakOutSource\BusinessLogicLayer\bin\Debug\net5.0\DataAccesLayer.pdb
+C:\Users\stijn\source\repos\ProftaakOutSource\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.csproj.CopyComplete
