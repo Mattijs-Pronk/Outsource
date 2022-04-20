@@ -57,16 +57,20 @@ namespace BusinessLogicLayer
 
         private bool FilterMedOnPersoonlijkheid(Medewerker m, int filterType, string filterString)
         {
-            int personalityId = 0;
+            List<int> personalityIds = new List<int>();
 
             PersoonlijkheidContainer phC = new PersoonlijkheidContainer();
 
             phC.GetAll().ForEach(p =>
             {
-                if (p.Name.Contains(filterString)) personalityId = p.Id;
+                if (p.Name.Contains(filterString)) personalityIds.Add(p.Id);
             });
 
-            return m.Persoonlijkheden.Contains(personalityId);
+            bool containsId = false;
+
+            personalityIds.ForEach(ps => { if (m.Vaardigheden.Contains(ps)) containsId = true; });
+
+            return containsId;
         }
 
         private bool FilterMedOnFunctie(Medewerker m, int filterType, string filterString)
@@ -85,16 +89,20 @@ namespace BusinessLogicLayer
 
         private bool FilterMedOnVaardigheid(Medewerker m, int filterType, string filterString)
         {
-            int skillId = 0;
+            List<int> skillIds = new List<int>();
 
             VaardigheidContainer skC = new VaardigheidContainer();
 
             skC.GetAll().ForEach(s =>
             {
-                if (s.Name.Contains(filterString)) skillId = s.Id;
+                if (s.Name.Contains(filterString)) skillIds.Add(s.Id);
             });
 
-            return m.Vaardigheden.Contains(skillId);
+            bool containsId = false;
+
+            skillIds.ForEach(sk => { if (m.Vaardigheden.Contains(sk)) containsId = true; });
+
+            return containsId;
         }
 
         private bool FilterMedOnName(Medewerker md, int filterType, string filterString)
