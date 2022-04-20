@@ -10,6 +10,12 @@ namespace DataAccesLayer
     {
         public int Id;
 
-        public string Vaardigheden;
+        public string Name;
+
+        public VaardigheidDTO(int id, string Name)
+        {
+            Id = id;
+            Name = Name;
+        }
     }
 }

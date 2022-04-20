@@ -91,10 +91,10 @@ namespace BusinessLogicLayer
 
             skC.GetAll().ForEach(s =>
             {
-                if (s.Name.Contains(filterString)) skillId = p.Id;
+                if (s.Name.Contains(filterString)) skillId = s.Id;
             });
 
-            return m.Persoonlijkheden.Contains(skillId);
+            return m.Vaardigheden.Contains(skillId);
         }
 
         private bool FilterMedOnName(Medewerker md, int filterType, string filterString)

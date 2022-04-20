@@ -10,13 +10,12 @@ namespace BusinessLogicLayer
     class Vaardigheid
     {
         public int Id { get; }
-
-        public string Vaardigheden { get; set; }
+        public string Name { get; internal set; }
 
         public Vaardigheid(VaardigheidDTO vaardigheid)
         {
             this.Id = vaardigheid.Id;
-            this.Vaardigheden = vaardigheid.Vaardigheden;
+            this.Name = vaardigheid.Name;
         }
     }
 }
