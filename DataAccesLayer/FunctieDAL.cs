@@ -30,7 +30,7 @@ namespace DataAccesLayer
                 FunctieDTO functie = new FunctieDTO()
                 {
                     Id = rdr.GetInt32("Id"),
-                    Functie = rdr.GetString("Functie"),
+                    Name = rdr.GetString("Functie"),
                 };
                 listfuncties.Add(functie);
             }

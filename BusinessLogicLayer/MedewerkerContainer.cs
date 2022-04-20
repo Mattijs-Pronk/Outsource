@@ -71,21 +71,30 @@ namespace BusinessLogicLayer
 
         private bool FilterMedOnFunctie(Medewerker m, int filterType, string filterString)
         {
-            int personalityId = 0;
+            int functieId = 0;
 
-            PersoonlijkheidContainer phC = new PersoonlijkheidContainer();
+            FunctieContainer fnC = new FunctieContainer();
 
-            phC.GetAll().ForEach(p =>
+            fnC.GetAll().ForEach(f =>
             {
-                if (p.Name.Contains(filterString)) personalityId = p.Id;
+                if (f.Name.Contains(filterString)) functieId = f.Id;
             });
 
-            return m.Persoonlijkheden.Contains(personalityId);
+            return m.FunctieId == functieId;
         }
 
         private bool FilterMedOnVaardigheid(Medewerker m, int filterType, string filterString)
         {
-            return (md.Voornaam + " " + md.Achternaam).Contains(filterString);
+            int skillId = 0;
+
+            VaardigheidContainer skC = new VaardigheidContainer();
+
+            skC.GetAll().ForEach(s =>
+            {
+                if (s.Name.Contains(filterString)) skillId = p.Id;
+            });
+
+            return m.Persoonlijkheden.Contains(skillId);
         }
 
         private bool FilterMedOnName(Medewerker md, int filterType, string filterString)

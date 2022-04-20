@@ -8,5 +8,9 @@ namespace BusinessLogicLayer
 {
     class VaardigheidContainer
     {
+        internal object GetAll()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
