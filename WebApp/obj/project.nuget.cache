@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QcM6eK9BKojeu8GN5N8JpItOPEj2cRKNnYMAvCrXt4aNXnp4SBDdDGBfHgAFKnydzAaJUjwKslpAHXzvWWQKMA==",
+  "dgSpecHash": "b76yiQhCbMXJGIwxtsxUIgEfecjvk3aYwAl7CehdUe82YlCowVc7623yfFQVERjvr2+LbrEOsrVzC491J8sj3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matti\\Desktop\\Outsource VECOZO\\Outsource\\WebApp\\WebApp.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\matti\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\stijn\\source\\repos\\ProftaakOutSource\\WebApp\\WebApp.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -490,25 +490,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\matti\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\stijn\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matti\\Desktop\\Outsource VECOZO\\Outsource\\Outsource VECOZO\\ViewLayer.csproj",
+      "projectUniqueName": "C:\\Users\\stijn\\source\\repos\\ProftaakOutSource\\Outsource VECOZO\\ViewLayer.csproj",
       "projectName": "ViewLayer",
-      "projectPath": "C:\\Users\\matti\\Desktop\\Outsource VECOZO\\Outsource\\Outsource VECOZO\\ViewLayer.csproj",
-      "packagesPath": "C:\\Users\\matti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matti\\Desktop\\Outsource VECOZO\\Outsource\\Outsource VECOZO\\obj\\",
+      "projectPath": "C:\\Users\\stijn\\source\\repos\\ProftaakOutSource\\Outsource VECOZO\\ViewLayer.csproj",
+      "packagesPath": "C:\\Users\\stijn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\stijn\\source\\repos\\ProftaakOutSource\\Outsource VECOZO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\matti\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\stijn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0-windows7.0"
@@ -521,8 +521,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\matti\\Desktop\\Outsource VECOZO\\Outsource\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
-              "projectPath": "C:\\Users\\matti\\Desktop\\Outsource VECOZO\\Outsource\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
+            "C:\\Users\\stijn\\source\\repos\\ProftaakOutSource\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+              "projectPath": "C:\\Users\\stijn\\source\\repos\\ProftaakOutSource\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
             }
           }
         }
@@ -546,12 +546,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.16, 5.0.16]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -560,7 +554,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

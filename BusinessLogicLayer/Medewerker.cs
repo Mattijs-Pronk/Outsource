@@ -27,6 +27,9 @@ namespace BusinessLogicLayer
 
         public bool IsManager { get; set; }
 
+        public List<int> Persoonlijkheden;
+        public List<int> Vaardigheden;
+
         public Medewerker()
         {
 
