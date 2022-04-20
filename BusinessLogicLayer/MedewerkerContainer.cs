@@ -57,17 +57,52 @@ namespace BusinessLogicLayer
 
         private bool FilterMedOnPersoonlijkheid(Medewerker m, int filterType, string filterString)
         {
-            return (md.Voornaam + " " + md.Achternaam).Contains(filterString);
+            List<int> personalityIds = new List<int>();
+
+            PersoonlijkheidContainer phC = new PersoonlijkheidContainer();
+
+            phC.GetAll().ForEach(p =>
+            {
+                if (p.Name.Contains(filterString)) personalityIds.Add(p.Id);
+            });
+
+            bool containsId = false;
+
+            personalityIds.ForEach(ps => { if (m.Vaardigheden.Contains(ps)) containsId = true; });
+
+            return containsId;
         }
 
         private bool FilterMedOnFunctie(Medewerker m, int filterType, string filterString)
         {
-            return (md.Voornaam + " " + md.Achternaam).Contains(filterString);
+            int functieId = 0;
+
+            FunctieContainer fnC = new FunctieContainer();
+
+            fnC.GetAll().ForEach(f =>
+            {
+                if (f.Name.Contains(filterString)) functieId = f.Id;
+            });
+
+            return m.FunctieId == functieId;
         }
 
         private bool FilterMedOnVaardigheid(Medewerker m, int filterType, string filterString)
         {
-            return (md.Voornaam + " " + md.Achternaam).Contains(filterString);
+            List<int> skillIds = new List<int>();
+
+            VaardigheidContainer skC = new VaardigheidContainer();
+
+            skC.GetAll().ForEach(s =>
+            {
+                if (s.Name.Contains(filterString)) skillIds.Add(s.Id);
+            });
+
+            bool containsId = false;
+
+            skillIds.ForEach(sk => { if (m.Vaardigheden.Contains(sk)) containsId = true; });
+
+            return containsId;
         }
 
         private bool FilterMedOnName(Medewerker md, int filterType, string filterString)

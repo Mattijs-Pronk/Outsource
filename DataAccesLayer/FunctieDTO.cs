@@ -10,6 +10,6 @@ namespace DataAccesLayer
     {
         public int Id;
 
-        public string Functie;
+        public string Name;
     }
 }

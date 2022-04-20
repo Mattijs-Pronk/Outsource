@@ -8,5 +8,9 @@ namespace BusinessLogicLayer
 {
     class VaardigheidContainer
     {
+        public List<Vaardigheid> GetAll()
+        {
+            return new List<Vaardigheid>();
+        }
     }
 }

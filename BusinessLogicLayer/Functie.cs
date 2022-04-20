@@ -7,15 +7,20 @@ using DataAccesLayer;
 
 namespace BusinessLogicLayer
 {
-    public class Functies
+    public class Functie
     {
         public int Id { get; set; }
-        public string Functie { get; set; }
+        public string Name { get; set; }
 
-        public Functies(FunctieDTO functie)
+        public Functie(int id, string name)
+        {
+            this.Id = id;
+            this.Name = name;
+        }
+        public Functie(FunctieDTO functie)
         {
             this.Id = functie.Id;
-            this.Functie = functie.Functie;
+            this.Name = functie.Name;
         }
     }
 }

@@ -4,18 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccesLayer
+namespace BusinessLogicLayer
 {
-    public class VaardigheidDTO
+    public class Persoonlijkheid
     {
         public int Id;
-
         public string Name;
 
-        public VaardigheidDTO(int id, string Name)
+        public Persoonlijkheid(int id, string name)
         {
             Id = id;
-            Name = Name;
+            Name = name;
         }
     }
 }

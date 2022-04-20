@@ -9,24 +9,34 @@ namespace BusinessLogicLayer
 {
     public class FunctieContainer
     {
-        public List<Functies> Functies = new List<Functies>();
+        public List<Functie> Functies = new List<Functie>();
+        FunctieDAL fnDal;
 
-
-        //list aanmaken om alle functies met bijbehorende gegevens op te halen.
-        public List<Functies> GetAllMedewerkers()
+        public FunctieContainer()
         {
-            FunctieDAL dal = new FunctieDAL();
-            List<FunctieDTO> listfuncties = dal.GetAllFuncties();
+            fnDal = new FunctieDAL();
+        }
+        //list aanmaken om alle functies met bijbehorende gegevens op te halen.
+        public List<Functie> GetAllMedewerkers()
+        {
+            List<FunctieDTO> listfuncties = fnDal.GetAllFuncties();
 
             //.clear om de list leeg te maken en niet dubbele te laten zien.
             Functies.Clear();
 
             foreach (FunctieDTO functies in listfuncties)
             {
-                Functies newfunctie = new Functies(functies);
+                Functie newfunctie = new Functie(functies);
                 Functies.Add(newfunctie);
             }
             return Functies;
+        }
+
+        internal List<Functie> GetAll()
+        {
+            List<Functie> result = new List<Functie>();
+            fnDal.GetAllFuncties().ForEach(f => result.Add(new Functie(f.Id, f.Name)));
+            return result;
         }
     }
 }

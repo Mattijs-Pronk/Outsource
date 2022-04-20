@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace DataAccesLayer
 {
-    public class VaardigheidDTO
+    public class PersoonlijkheidDTO
     {
         public int Id;
 
         public string Name;
 
-        public VaardigheidDTO(int id, string Name)
+        public PersoonlijkheidDTO(int id, string name)
         {
             Id = id;
-            Name = Name;
+            Name = name;
         }
     }
 }
