@@ -35,22 +35,10 @@ namespace BusinessLogicLayer
             var filteredMedewerkers = new List<Medewerker>();
             if (filterType < 0 || filterType > 3) return filteredMedewerkers;
 
-            if (filterType == FilterOn.Functie) //Filter on Name
-            {
-                medewerkersList.ForEach((m) => { if (FilterMedOnFunctie(m, filterType, filterString)) filteredMedewerkers.Add(m); });
-            }
-            else if (filterType == FilterOn.Persoonlijkheid)
-            {
-                medewerkersList.ForEach((m) => { if (FilterMedOnPersoonlijkheid(m, filterType, filterString)) filteredMedewerkers.Add(m); });
-            }
-            else if (filterType == FilterOn.Vaardigheid)
-            {
-                medewerkersList.ForEach((m) => { if (FilterMedOnVaardigheid(m, filterType, filterString)) filteredMedewerkers.Add(m); });
-            }
-            else
-            {
-                medewerkersList.ForEach((m) => { if (FilterMedOnName(m, filterType, filterString)) filteredMedewerkers.Add(m); });
-            }
+            if (filterType == FilterOn.Functie) { medewerkersList.ForEach((m) => { if (FilterMedOnFunctie(m, filterType, filterString)) filteredMedewerkers.Add(m); }); }
+            else if (filterType == FilterOn.Persoonlijkheid) { medewerkersList.ForEach((m) => { if (FilterMedOnPersoonlijkheid(m, filterType, filterString)) filteredMedewerkers.Add(m); }); }
+            else if (filterType == FilterOn.Vaardigheid) { medewerkersList.ForEach((m) => { if (FilterMedOnVaardigheid(m, filterType, filterString)) filteredMedewerkers.Add(m); }); }
+            else { medewerkersList.ForEach((m) => { if (FilterMedOnName(m, filterType, filterString)) filteredMedewerkers.Add(m); }); }
 
             return filteredMedewerkers;
         }
@@ -58,31 +46,21 @@ namespace BusinessLogicLayer
         private bool FilterMedOnPersoonlijkheid(Medewerker m, int filterType, string filterString)
         {
             List<int> personalityIds = new List<int>();
-
             PersoonlijkheidContainer phC = new PersoonlijkheidContainer();
 
-            phC.GetAll().ForEach(p =>
-            {
-                if (p.Name.Contains(filterString)) personalityIds.Add(p.Id);
-            });
-
+            phC.GetAll().ForEach(p => { if (p.Name.ToLower().Contains(filterString.ToLower())) personalityIds.Add(p.Id); });
+            
             bool containsId = false;
-
-            personalityIds.ForEach(ps => { if (m.Vaardigheden.Contains(ps)) containsId = true; });
-
+            personalityIds.ForEach(ps => { if (m.Persoonlijkheden.Contains(ps)) containsId = true; });
             return containsId;
         }
 
         private bool FilterMedOnFunctie(Medewerker m, int filterType, string filterString)
         {
             int functieId = 0;
-
             FunctieContainer fnC = new FunctieContainer();
 
-            fnC.GetAll().ForEach(f =>
-            {
-                if (f.Name.Contains(filterString)) functieId = f.Id;
-            });
+            fnC.GetAll().ForEach(f => { if (f.Name.ToLower().Contains(filterString.ToLower())) functieId = f.Id; });
 
             return m.FunctieId == functieId;
         }
@@ -90,25 +68,17 @@ namespace BusinessLogicLayer
         private bool FilterMedOnVaardigheid(Medewerker m, int filterType, string filterString)
         {
             List<int> skillIds = new List<int>();
-
             VaardigheidContainer skC = new VaardigheidContainer();
-
-            skC.GetAll().ForEach(s =>
-            {
-                if (s.Name.Contains(filterString)) skillIds.Add(s.Id);
-            });
+            
+            skC.GetAll().ForEach(s => { if (s.Name.ToLower().Contains(filterString.ToLower())) skillIds.Add(s.Id); });
 
             bool containsId = false;
-
             skillIds.ForEach(sk => { if (m.Vaardigheden.Contains(sk)) containsId = true; });
 
             return containsId;
         }
 
-        private bool FilterMedOnName(Medewerker md, int filterType, string filterString)
-        {
-            return (md.Voornaam + " " + md.Achternaam).Contains(filterString);
-        }
+        private bool FilterMedOnName(Medewerker md, int filterType, string filterString) { return (md.Voornaam.ToLower() + " " + md.Achternaam.ToLower()).Contains(filterString.ToLower()); }
 
     }
     public class FilterOn

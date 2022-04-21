@@ -8,7 +8,6 @@ namespace DataAccesLayer
 {
     public class PersoonlijkheidDAL
     {
-
         public List<PersoonlijkheidDTO> GetAll()
         {
             var ls = new List<PersoonlijkheidDTO>();

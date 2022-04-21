@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9apvfuDHuRpYtvWWEyP4SUeqnsgQyh7KjI8bTUHMC5iSaOQk88Kq4gzp3Osssvcd9M3eTSzoyFqiQ73GnF+X1Q==",
+  "dgSpecHash": "QYOMxwq5gGnR4yOmFtilXHQRGfuQRTb5eWgoRk7dq1ql3qPwCXRCD8Su4l9mfPHBuv0GtEM/2waGGxg91yIwLA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\stijn\\source\\repos\\ProftaakOutSource\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+  "projectFilePath": "C:\\Users\\stijn\\source\\repos\\ProftaakOutsource\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stijn\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\stijn\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

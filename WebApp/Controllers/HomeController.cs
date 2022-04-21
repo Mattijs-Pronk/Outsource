@@ -19,8 +19,19 @@ namespace WebApp.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(List<Medewerker> meds)
         {
+            ///
+            /// meds is full list or filtered list of medewerkers
+            /// The index displayed deze list
+            /// When filtered go to this page and add the filtered medewerkers list to the function
+            /// 
+
+            #region this is to test the filter functions
+            MedewerkerContainer medewerkerContainer = new MedewerkerContainer();
+            var mds = medewerkerContainer.FilterMedewerkersFunc(medewerkerContainer.GetAllMedewerkers(), FilterOn.Functie, "e");
+            ViewBag.medewerkers = mds;
+            #endregion
             return View();
         }
 

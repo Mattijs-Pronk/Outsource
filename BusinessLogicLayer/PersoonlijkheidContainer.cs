@@ -13,7 +13,6 @@ namespace BusinessLogicLayer
         public PersoonlijkheidContainer()
         {
             psDal = new PersoonlijkheidDAL();
-
         }
         public List<Persoonlijkheid> GetAll()
         {

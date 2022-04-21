@@ -52,6 +52,8 @@ namespace BusinessLogicLayer
             this.FunctieId = medewerker.FunctieId;
             this.DatumLogin = medewerker.DatumLogin;
             this.IsManager = medewerker.IsManager;
+            Persoonlijkheden = medewerker.Persoonlijkheden;
+            Vaardigheden = medewerker.Vaardigheden;
         }
     }
 }

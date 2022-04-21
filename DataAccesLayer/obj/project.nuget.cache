@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "liGrtjReuI5fg52CH8WX619LzA7GTU9R0xI8UPaz6ziVjmovr7Ne2Ruko1ylqxGPK5DUhn4mcirb4cCzfdevvQ==",
+  "dgSpecHash": "InSmuB+HPpTv5YHOum+K3buco7xJAQcCQnNf25y1n2N1Asr8Zw4BS7iZu9fnw1MqBmEnRcV6DpMUk4hFrBs9+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\stijn\\source\\repos\\ProftaakOutSource\\DataAccesLayer\\DataAccesLayer.csproj",
+  "projectFilePath": "C:\\Users\\stijn\\source\\repos\\ProftaakOutsource\\DataAccesLayer\\DataAccesLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stijn\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\stijn\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

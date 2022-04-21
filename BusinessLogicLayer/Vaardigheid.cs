@@ -7,15 +7,21 @@ using DataAccesLayer;
 
 namespace BusinessLogicLayer
 {
-    class Vaardigheid
+    public class Vaardigheid
     {
-        public int Id { get; }
-        public string Name { get; internal set; }
+        public int Id;
+        public string Name;
+
+        public Vaardigheid(int id, string name)
+        {
+            Id = id;
+            Name = name;
+        }
 
         public Vaardigheid(VaardigheidDTO vaardigheid)
         {
-            this.Id = vaardigheid.Id;
-            this.Name = vaardigheid.Name;
+            Id = vaardigheid.Id;
+            Name = vaardigheid.Name;
         }
     }
 }

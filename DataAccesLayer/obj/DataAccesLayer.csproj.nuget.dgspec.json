@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\stijn\\source\\repos\\ProftaakOutSource\\DataAccesLayer\\DataAccesLayer.csproj": {}
+    "C:\\Users\\stijn\\source\\repos\\ProftaakOutsource\\DataAccesLayer\\DataAccesLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\stijn\\source\\repos\\ProftaakOutSource\\DataAccesLayer\\DataAccesLayer.csproj": {
+    "C:\\Users\\stijn\\source\\repos\\ProftaakOutsource\\DataAccesLayer\\DataAccesLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stijn\\source\\repos\\ProftaakOutSource\\DataAccesLayer\\DataAccesLayer.csproj",
+        "projectUniqueName": "C:\\Users\\stijn\\source\\repos\\ProftaakOutsource\\DataAccesLayer\\DataAccesLayer.csproj",
         "projectName": "DataAccesLayer",
-        "projectPath": "C:\\Users\\stijn\\source\\repos\\ProftaakOutSource\\DataAccesLayer\\DataAccesLayer.csproj",
+        "projectPath": "C:\\Users\\stijn\\source\\repos\\ProftaakOutsource\\DataAccesLayer\\DataAccesLayer.csproj",
         "packagesPath": "C:\\Users\\stijn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stijn\\source\\repos\\ProftaakOutSource\\DataAccesLayer\\obj\\",
+        "outputPath": "C:\\Users\\stijn\\source\\repos\\ProftaakOutsource\\DataAccesLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

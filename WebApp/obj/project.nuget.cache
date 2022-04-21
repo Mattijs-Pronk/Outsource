@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8hm6IBtnYEsgfEksEmdbiLNVVaQXDDSUJYpGL3qhN1g8DTNO9Y46+tDaq36yVdi/tgTdzXOAoc6ZwInVFROKmA==",
+  "dgSpecHash": "16qNBtX7ajAeAdniwXG/gGgggvpMOoaa14lpuN/QFno5nOzzst1tGcSgIAJxYQKHlo0mqqTVQywFwzXRp9ux+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\stijn\\source\\repos\\ProftaakOutSource\\WebApp\\WebApp.csproj",
+  "projectFilePath": "C:\\Users\\stijn\\source\\repos\\ProftaakOutsource\\WebApp\\WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stijn\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\stijn\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

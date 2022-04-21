@@ -44,6 +44,27 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        var Medewerkers = document.querySelectorAll('.medewerker');
+        console.log(Medewerkers[1])
+        Medewerkers.forEach((m, i) => {
+            m.onmouseover = (e) => {
+                if (i < Medewerkers.length - 1) {
+                    Medewerkers[i + 1].classList.add("medewerker-hover")
+                } else {
+                    Medewerkers[0].classList.add("medewerker-hover")
+                }
+            }
+            @*m.onmouseleave = (e) => {
+                if (i < Medewerkers.length - 1) {
+                    Medewerkers[i + 1].classList.remove("medewerker-hover")
+                } else {
+                    Medewerkers[0].classList.remove("medewerker-hover")
+                }
+            }*@
+        })
+
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
